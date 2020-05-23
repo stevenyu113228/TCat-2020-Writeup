@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat May 23 21:55:37 2020
+Invocation: foremost LaGioconda.jpg 
+Output directory: /Users/steven/code/tcat/output
+Configuration file: /usr/local/etc/foremost.conf
+------------------------------------------------------------------
+File: LaGioconda.jpg
+Start: Sat May 23 21:55:37 2020
+Length: Unknown
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000039.zip 	       9 KB 	      20045 	 
+Finish: Sat May 23 21:55:37 2020
+
+1 FILES EXTRACTED
+	
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat May 23 21:55:37 2020

@@ -1,0 +1,14 @@
+<?php
+	error_reporting(E_ALL^E_NOTICE^E_WARNING);
+	$account = $_POST['account'];
+	$password = $_POST['password'];
+	$Sourse = false;
+	if(md5($account)==sha1($password))
+	{
+		$Sourse = true;
+	}
+	else
+	{
+		$Sourse = false;
+	}
+?>

@@ -1,0 +1,26 @@
+<?php
+	error_reporting(E_ALL^E_NOTICE^E_WARNING);
+	$search = isset($_GET['user_search']) ? $_GET['user_search'] : 'searchContent';
+	if($search === searchContent)
+	{
+		
+	}
+	else if(strpos($_SERVER['QUERY_STRING'],'user_search') !==false)
+	{
+		echo "<p>查詢指令不正確</p>" ;
+	}
+	else if($search < 1000)
+	{
+		echo "<p>查詢指令長度太短了</p>";
+	}
+	else if((string)$search > 0)	
+	{
+		echo "<p>查詢指令長度太長了</p>";
+	}
+	else
+	{
+		echo "<p>查詢結果</p>";
+		echo "<p>{\"TCat2020\":\"???????????????????????????\"}</p>";
+	}
+?>
+
